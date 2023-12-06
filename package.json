@@ -1,0 +1,18 @@
+{
+  "name": "sggwscraper",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.1.2",
+    "@types/web": "^0.0.123",
+    "bun-types": "latest",
+    "eslint": "^8.54.0",
+    "playwright": "^1.40.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.2"
+  }
+}
